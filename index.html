@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form id="myForm">
+        <input id="cityInput">
+        <button id="getWeatherButton">Search</button>
+    </form>
+    <div id="main"></div>
+    <template id="mainTemplate">
+        <div id="weatherSummary">
+            <div class="mainWeather">Wetaher: Rain</div>
+            <div class="mainWeatherDesc">Description: moderate rain</div>
+            <div class="weatherIcon"><img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon"></div>
+            <div class="mainTemp"></div>
+            <div class="feelsLikeTemp"></div>
+            <div class="humidity"></div>
+            <div class="windSpeed"></div>
+            
+        
+        
+        
+        </div>
+    </template>
+</body>
+</html>
