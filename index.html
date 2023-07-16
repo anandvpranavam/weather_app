@@ -8,25 +8,26 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    
+    <div class="container">
+    <h1 id="heading">The Weather App</h1>
+    <div id="main"></div>
     <form id="myForm">
-        <input id="cityInput">
+        <input id="cityInput" placeholder="Enter City">
         <button id="getWeatherButton">Search</button>
     </form>
-    <div id="main"></div>
+    
     <template id="mainTemplate">
-        <div id="weatherSummary">
-            <div class="mainWeather">Wetaher: Rain</div>
-            <div class="mainWeatherDesc">Description: moderate rain</div>
-            <div class="weatherIcon"><img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon"></div>
+        <div class="weatherIcon"><img src="https://openweathermap.org/img/wn/11d@2x.png" alt="weather icon"></div>
             <div class="mainTemp"></div>
+            <div class="mainWeather"></div>
+            <div class="mainWeatherDesc"></div>
+        <div id="weatherSummary">            
             <div class="feelsLikeTemp"></div>
             <div class="humidity"></div>
             <div class="windSpeed"></div>
-            
-        
-        
-        
         </div>
     </template>
+</div>
 </body>
 </html>
